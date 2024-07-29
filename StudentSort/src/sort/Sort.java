@@ -46,7 +46,6 @@ public class Sort {
 		students.add(new Student(" Karen Umbreon ", 1030, " 800 Indigo Lane"));
 
 		Sort.sort(students, new comparatorrollNo());
-		// Sort.sort(students);
 		Iterator itr = students.iterator();
 		System.out.println("=================================================");
 		System.out.println("Here are your list of students sorted by rollNo: ");
